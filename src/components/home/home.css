@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.container {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.container-general {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  margin: auto;
+  padding-left: 25px;
+}
+
+.text-div {
+  display: flex;
+  flex-direction: column;
+  width: 347px;
+  margin: 0 auto;
+}
+.text-div img {
+  width: 122.68px;
+  height: 19.53px;
+}
+.text-div h2 {
+  font-size: 35px;
+  line-height: 48px;
+  width: 342px;
+}
+.text-div span {
+  font-size: 16px;
+  font-weight: 400;
+}
+.img-home {
+  display: flex;
+  width: 85%;
+  margin: 0;
+}
+.btn-form {
+  margin-top: 30px;
+  height: 48px;
+  width: 241px;
+  background-color: #fd377e;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+}
+button {
+  cursor: pointer;
+}
+@media (max-width: 800px) {
+  .img-home {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .text-div {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .text-div h2 {
+    font-size: 27px;
+    width: 100%;
+  }
+}
